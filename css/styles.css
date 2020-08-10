@@ -1,5 +1,45 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Abril Fatface', cursive;
+}
+
+
+ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 50%;
+    margin: 0px 0px 0px 350px;
+    padding: 0px 0px 0px 0px;
+    overflow: hidden;
+    background-color: pink;
+}
+
+.nav-bar
+{
+    background-color: #ffbdbd;
+    font-size: 20px;
+}
+
+li
+{
+    float: left;
+}
+
+li a
+{ 
+display: block;
+color: whitesmoke;
+text-align: center;
+padding: 12px 10px;
+text-decoration: none;
+}
+
+li a:hover 
+{
+color: tan;
 }
